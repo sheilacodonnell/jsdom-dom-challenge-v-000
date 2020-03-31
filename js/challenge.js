@@ -41,10 +41,18 @@ function addFavorite() {
   favoritesList.appendChild(favorite);
 }
 
+function addComment() {
+    event.preventDefault();
+    let listElement = document.createElement("li");
+    listElement.innerHTML = task.value;
+    taskList.appendChild(listElement);
+  };
+
 
 plus.addEventListener("click", addSecond);
 subtract.addEventListener("click", subtractSecond);
 pause.addEventListener('click', pauseClock);
 heart.addEventListener('click', addFavorite);
+commentForm.addEventListener('submit', addComment);
 
 })
