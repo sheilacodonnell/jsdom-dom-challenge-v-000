@@ -47,7 +47,7 @@ function addComment() {
     event.preventDefault();
     let listElement = document.createElement("li");
     listElement.innerHTML = commentInput.value;
-    commentForm.appendChild(listElement);
+    commentList.appendChild(listElement);
   };
 
 
