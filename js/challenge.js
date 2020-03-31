@@ -50,7 +50,6 @@ function addComment() {
     commentList.appendChild(listElement);
   };
 
-
 plus.addEventListener("click", addSecond);
 subtract.addEventListener("click", subtractSecond);
 pause.addEventListener('click', pauseClock);
