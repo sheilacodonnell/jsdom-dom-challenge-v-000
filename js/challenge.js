@@ -46,7 +46,7 @@ function addComment() {
     event.preventDefault();
     let listElement = document.createElement("li");
     listElement.innerHTML = commentInput.value;
-    taskList.appendChild(listElement);
+    commentForm.appendChild(listElement);
   };
 
 
