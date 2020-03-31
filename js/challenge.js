@@ -11,7 +11,7 @@ let clockDefault = setInterval(() => clockIncrement(), 1000);
 let favoritesList = document.querySelector("ul");
 let commentForm = document.getElementById('comment-form')
 let commentInput = document.getElementById("comment-input");
-let comments = 
+let commentList = document.getElementById('list')
 
 
 function clockIncrement() {
