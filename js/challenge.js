@@ -45,7 +45,7 @@ function addFavorite() {
 function addComment() {
     event.preventDefault();
     let listElement = document.createElement("li");
-    listElement.innerHTML = task.value;
+    listElement.innerHTML = commentInput.value;
     taskList.appendChild(listElement);
   };
 
