@@ -10,6 +10,7 @@ let seconds = parseInt(counter.innerText)
 let clockDefault = setInterval(() => clockIncrement(), 1000);
 let favoritesList = document.querySelector("ul");
 let commentForm = document.getElementById('comment-form')
+let task = document.getElementById("new-task-description");
 
 
 function clockIncrement() {
